@@ -1,0 +1,59 @@
+header {
+  width: 100%;
+  height: 190px;
+  flex: 0 0 auto;
+  background-color: aquamarine;
+}
+
+aside {
+  /* position: flex; */
+  float: left;
+  width: 30%;
+  background-color: aqua;
+  height: inherit;
+}
+
+img {
+  padding: 20px;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 80px;
+  margin: 0;
+}
+
+body {
+  background-color: antiquewhite;
+  margin: 0;
+  font-family: "Nerko One", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.el {
+  float: left;
+  width: 50%;
+}
+
+main {
+  background-color: #aabbcc;
+  padding: 10px 0px 10px 5px;
+  flex: 1 1 auto;
+}
+
+footer {
+  float: right;
+  padding: 15px;
+  flex: 0 0 auto;
+}
